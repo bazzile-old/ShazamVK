@@ -1,0 +1,2010 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>My Shazam History</title>
+	<style>
+	body {
+		background: #F2F2F2;
+		margin: 0;
+		font-size:93%;
+		line-height: 1.3
+	}
+	a, a:hover, a:visited {
+		color:#000;
+		font-weight:bold;
+	}
+
+	.head {
+		background-color: #0b4780;
+		background-repeat: repeat-x;
+		background-image: -khtml-gradient(linear, left top, left bottom, from(#0d559f), to(#0b4780));
+		background-image: -moz-linear-gradient(#0d559f, #0b4780);
+		background-image: -ms-linear-gradient(#0d559f, #0b4780);
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0d559f), color-stop(100%, #0b4780));
+		background-image: -webkit-linear-gradient(#0d559f, #0b4780);
+		background-image: -o-linear-gradient(#0d559f, #0b4780);
+		background-image: -ms-linear-gradient(top, #0d559f 0%, #0b4780 100%);
+		background-image: linear-gradient(#0d559f, #0b4780);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d559f', endColorstr='#0b4780', GradientType=0);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d559f', endColorstr='#0b4780', GradientType=0)";
+		height: 44px;
+		margin: 0;
+		overflow: auto;
+		padding-top: 12px;
+		box-sizing: border-box;
+		padding-left: 7px;
+	}
+	.head svg {
+		fill:white;
+	}
+	table {
+		background: #FFFFFF;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		-webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+		box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+		margin: 20px auto;
+		overflow: hidden;
+		padding: 5px;
+		font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	}
+	table td, table th {
+		padding:5px;
+	}
+	tr:nth-child(even) {
+		background-color: #EBEBEB;
+	}
+	tr:hover {
+		background-color: #BFDFF4;
+	}
+	th {
+		background-color: #FFFFFF;
+		text-align:left;
+		font-size:130%;
+	}
+	th.time {
+		text-align: right;
+	}
+	td.time {
+		font-size: 13px;
+		text-align: right;
+	}
+	.map {
+		text-align: center;
+	}
+	td a {
+		display: block;
+	}
+	.icon {
+		width: 17px;
+		height: 18px;
+	}
+	</style>
+
+	<svg xmlns="http://www.w3.org/2000/svg" style="display:none"><symbol id="icon-map" viewBox="0 0 32 32"><path d="M16 0C9.312 0 3.875 5.438 3.875 12.125 3.875 18.875 13.375 32 16 32c1.938 0 12.125-13.125 12.125-19.875C28.125 5.437 22.687 0 16 0zm-.062 18.125c-3.375 0-6.188-2.75-6.188-6.188 0-3.375 2.813-6.188 6.188-6.188 3.438 0 6.188 2.812 6.188 6.187 0 3.438-2.75 6.188-6.188 6.188z"/></symbol><symbol id="icon-shazam_logo" viewBox="0 595.3 400 400"><path d="M200 595.3c-110 0-200 90-200 200s90 200 200 200 200-90 200-200-90-200-200-200zm-32.5 280c-20 0-42.5-7.5-57.5-20-20-17.5-32.5-40-32.5-65-2.5-25 5-47.5 22.5-65 17.5-22.5 50-52.5 52.5-55 10-7.5 22.5-7.5 32.5 0 7.5 10 7.5 22.5 0 32.5l-50 50c-7.5 10-12.5 20-12.5 32.5s7.5 25 17.5 32.5c12.5 12.5 40 15 57.5 0l22.5-22.5c7.5-10 22.5-10 32.5-2.5s10 22.5 2.5 32.5l-25 25c-20 17.5-42.5 25-62.5 25zm135-2.5c-17.5 22.5-52.5 52.5-52.5 55-5 5-10 5-15 5s-12.5-2.5-17.5-7.5c-7.5-10-7.5-22.5 0-32.5l50-50c7.5-10 12.5-20 12.5-32.5s-7.5-25-17.5-32.5c-12.5-12.5-40-15-57.5 0l-22.5 22.5c-7.5 10-22.5 10-32.5 2.5-7.5-10-7.5-25 0-32.5l25-25c32.5-27.5 85-30 117.5 0 20 17.5 32.5 40 32.5 65 2.5 22.5-5 45-22.5 62.5z"/></symbol></svg>
+</head>
+<body>
+	<div class="head">
+		<svg class="icon"><use xlink:href="#icon-shazam_logo"></use></svg>
+	</div>
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<th width="40%">Title</th>
+			<th width="25%">Artist</th>
+			<th width="20%" class="time">Date</th>
+			<th class="map" width="5%">Map</th>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t62130013" target="_blank">Chartreuse</a></td>
+			<td>ZZ Top</td>
+			<td class="time">18-Apr-2016 12:55</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65400314331055,37.593727111816406" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t240485" target="_blank">The Boxer</a></td>
+			<td>Simon &amp; Garfunkel</td>
+			<td class="time">18-Apr-2016 12:23</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65397644042969,37.59373092651367" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t218153" target="_blank">Ironic</a></td>
+			<td>Alanis Morissette</td>
+			<td class="time">18-Apr-2016 08:44</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65397644042969,37.5937385559082" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t319805" target="_blank">Angel Of The Morning</a></td>
+			<td>Juice Newton</td>
+			<td class="time">18-Apr-2016 07:20</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65395736694336,37.593753814697266" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45362528" target="_blank">Города. Поезда</a></td>
+			<td>Александр Маршал</td>
+			<td class="time">17-Apr-2016 01:58</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73847961425781,37.652252197265625" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t10890733" target="_blank">I&#39;ve Got A Woman (Part 1)</a></td>
+			<td>Jimmy McGriff</td>
+			<td class="time">15-Apr-2016 03:06</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65399932861328,37.59380340576172" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5919423" target="_blank">Won&#39;t Get Fooled Again</a></td>
+			<td>The Who</td>
+			<td class="time">15-Apr-2016 03:34</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65398025512695,37.59379577636719" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t40250667" target="_blank">Dry Your Eyes</a></td>
+			<td>The Streets</td>
+			<td class="time">15-Apr-2016 03:43</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65398406982422,37.59376525878906" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t314003614" target="_blank">Something To Say</a></td>
+			<td>Adam Norsworthy</td>
+			<td class="time">15-Apr-2016 02:52</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65397644042969,37.59375" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t310392494" target="_blank">Mountain Lifter</a></td>
+			<td>Kula Shaker</td>
+			<td class="time">14-Apr-2016 03:25</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.653995513916016,37.593772888183594" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t334023" target="_blank">Romeo Had Juliette</a></td>
+			<td>Lou Reed</td>
+			<td class="time">14-Apr-2016 03:04</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65396499633789,37.5937614440918" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t374771" target="_blank">Get Me To The World On Time</a></td>
+			<td>The Electric Prunes</td>
+			<td class="time">14-Apr-2016 02:53</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65399169921875,37.59376525878906" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t231251" target="_blank">Be Yourself</a></td>
+			<td>Morcheeba</td>
+			<td class="time">14-Apr-2016 02:38</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.653953552246094,37.593833923339844" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t293405552" target="_blank">96</a></td>
+			<td>Turin Brakes</td>
+			<td class="time">14-Apr-2016 02:43</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654022216796875,37.59376525878906" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5751485" target="_blank">Think About It (2002 Digital Remaster)</a></td>
+			<td>The Yardbirds</td>
+			<td class="time">14-Apr-2016 01:27</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.6539421081543,37.593780517578125" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t350847" target="_blank">So It Goes</a></td>
+			<td>Nick Lowe</td>
+			<td class="time">14-Apr-2016 01:38</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65397644042969,37.59381866455078" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t228876" target="_blank">Woodcutter&#39;s Son</a></td>
+			<td>Paul Weller</td>
+			<td class="time">14-Apr-2016 01:04</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65397262573242,37.59375" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t263887" target="_blank">All I Wanna Do</a></td>
+			<td>Sheryl Crow</td>
+			<td class="time">14-Apr-2016 12:36</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65399932861328,37.59379196166992" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t463185" target="_blank">Guitar Man</a></td>
+			<td>Bread</td>
+			<td class="time">13-Apr-2016 03:45</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65396499633789,37.593753814697266" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5242334" target="_blank">A Thousand Miles</a></td>
+			<td>Vanessa Carlton</td>
+			<td class="time">12-Apr-2016 09:03</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.738346099853516,37.65258026123047" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t268631" target="_blank">Lovesong</a></td>
+			<td>The Cure</td>
+			<td class="time">12-Apr-2016 06:42</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73844909667969,37.652278900146484" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t365343" target="_blank">Ride Like The Wind</a></td>
+			<td>Christopher Cross</td>
+			<td class="time">12-Apr-2016 06:24</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73844909667969,37.652278900146484" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t271120037" target="_blank">Picky</a></td>
+			<td>Joey Montana</td>
+			<td class="time">06-Apr-2016 03:25</td>
+			<td class="map"><a href="https://google.com/maps/?q=-34.61618423461914,-58.376190185546875" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t56172617" target="_blank">Asado Y Fernet</a></td>
+			<td>Los Caligaris</td>
+			<td class="time">06-Apr-2016 01:43</td>
+			<td class="map"><a href="https://google.com/maps/?q=-34.61618423461914,-58.376190185546875" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t126473518" target="_blank">Trillando La Fina</a></td>
+			<td>Almafuerte</td>
+			<td class="time">04-Apr-2016 07:21</td>
+			<td class="map"><a href="https://google.com/maps/?q=-50.33698654174805,-72.26390075683594" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t52927351" target="_blank">Stereo Love (Remix)</a></td>
+			<td>Don Omar</td>
+			<td class="time">01-Apr-2016 03:48</td>
+			<td class="map"><a href="https://google.com/maps/?q=-52.03178024291992,-71.71145629882812" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t111517080" target="_blank">El Redentor Secreto</a></td>
+			<td>Skay Beilinson</td>
+			<td class="time">01-Apr-2016 04:42</td>
+			<td class="map"><a href="https://google.com/maps/?q=-52.05461883544922,-71.42793273925781" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t310121" target="_blank">Multiplication</a></td>
+			<td>Bobby Darin</td>
+			<td class="time">01-Apr-2016 07:57</td>
+			<td class="map"><a href="https://google.com/maps/?q=-52.03923797607422,-71.94092559814453" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t20143913" target="_blank">How Do You Do</a></td>
+			<td>Mouth &amp; MacNeal</td>
+			<td class="time">01-Apr-2016 07:35</td>
+			<td class="map"><a href="https://google.com/maps/?q=-52.03923797607422,-71.94092559814453" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t10224497" target="_blank">Who Put The Bomp</a></td>
+			<td>Barry Mann</td>
+			<td class="time">01-Apr-2016 07:15</td>
+			<td class="map"><a href="https://google.com/maps/?q=-51.73106002807617,-72.50569915771484" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5600005" target="_blank">99 Red Balloons</a></td>
+			<td>Nena</td>
+			<td class="time">01-Apr-2016 10:25</td>
+			<td class="map"><a href="https://google.com/maps/?q=-51.729164123535156,-72.48641967773438" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t57214106" target="_blank">Balada Del Diablo Y La Muerte</a></td>
+			<td>La Renga</td>
+			<td class="time">29-Mar-2016 01:15</td>
+			<td class="map"><a href="https://google.com/maps/?q=-50.34307098388672,-72.28722381591797" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5573701" target="_blank">Sister Golden Hair</a></td>
+			<td>America</td>
+			<td class="time">27-Mar-2016 06:30</td>
+			<td class="map"><a href="https://google.com/maps/?q=-50.284175872802734,-72.05427551269531" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t308982876" target="_blank">This Train</a></td>
+			<td>Joe Bonamassa</td>
+			<td class="time">26-Mar-2016 08:35</td>
+			<td class="map"><a href="https://google.com/maps/?q=40.434200286865234,-3.632650375366211" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t232551" target="_blank">The Sun Always Shines On Tv</a></td>
+			<td>A-Ha</td>
+			<td class="time">23-Mar-2016 07:34</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73844528198242,37.652339935302734" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t348297" target="_blank">Let&#39;s Work Together</a></td>
+			<td>Canned Heat</td>
+			<td class="time">22-Mar-2016 05:34</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73847198486328,37.652320861816406" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t221870" target="_blank">More Life In A Tramps Vest</a></td>
+			<td>Stereophonics</td>
+			<td class="time">22-Mar-2016 05:10</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73841857910156,37.65212631225586" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t373146" target="_blank">Nothing Lasts Forever</a></td>
+			<td>Echo And The Bunnymen</td>
+			<td class="time">22-Mar-2016 05:08</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73836135864258,37.651954650878906" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t232493800" target="_blank">Тема Романса (Из Т/Ф &quot;Формула Любви&quot;)</a></td>
+			<td>Геннадий Гладков</td>
+			<td class="time">21-Mar-2016 06:11</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.7506103515625,37.717803955078125" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t135270057" target="_blank">I&#39;m Not Coming Back</a></td>
+			<td>Husky</td>
+			<td class="time">21-Mar-2016 07:36</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73844909667969,37.652339935302734" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t310057987" target="_blank">Casino</a></td>
+			<td>Jamie Floyd</td>
+			<td class="time">21-Mar-2016 07:41</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73844528198242,37.65236282348633" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t303418252" target="_blank">Glass Love Train</a></td>
+			<td>Tanita Tikaram</td>
+			<td class="time">11-Mar-2016 04:08</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65403366088867,37.59380340576172" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t431762" target="_blank">Glad</a></td>
+			<td>Traffic</td>
+			<td class="time">10-Mar-2016 03:18</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.6539421081543,37.593772888183594" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t230013" target="_blank">Nobody Told Me</a></td>
+			<td>John Lennon</td>
+			<td class="time">10-Mar-2016 02:14</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65392303466797,37.593753814697266" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5245714" target="_blank">Boom Boom</a></td>
+			<td>JOhn Lee Hooker</td>
+			<td class="time">10-Mar-2016 01:06</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65402603149414,37.59378433227539" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t285490" target="_blank">Bye Bye Johnny</a></td>
+			<td>Status Quo</td>
+			<td class="time">10-Mar-2016 11:25</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65399932861328,37.59376525878906" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5127462" target="_blank">Bad Penny</a></td>
+			<td>Rory Gallagher</td>
+			<td class="time">09-Mar-2016 10:23</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.6539306640625,37.59377670288086" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t236827102" target="_blank">Ditmas</a></td>
+			<td>Mumford &amp; Sons</td>
+			<td class="time">06-Mar-2016 03:04</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654014587402344,37.59382247924805" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t236827102" target="_blank">Ditmas</a></td>
+			<td>Mumford &amp; Sons</td>
+			<td class="time">06-Mar-2016 03:25</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654014587402344,37.59382247924805" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t20122254" target="_blank">Come Around Again</a></td>
+			<td>Jet</td>
+			<td class="time">06-Mar-2016 03:22</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.79397201538086,37.58768081665039" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t301874874" target="_blank">Pride</a></td>
+			<td>American Authors</td>
+			<td class="time">06-Mar-2016 03:33</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.79397201538086,37.58768081665039" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t98258995" target="_blank">Chord5 (Original Mix)</a></td>
+			<td>Kevin Weed</td>
+			<td class="time">06-Mar-2016 01:11</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.79397201538086,37.58768081665039" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t304616670" target="_blank">My Heart Went Cold</a></td>
+			<td>The Thermals</td>
+			<td class="time">06-Mar-2016 01:19</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.79397201538086,37.58768081665039" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t311875537" target="_blank">The Rambler</a></td>
+			<td>Black Stone Cherry</td>
+			<td class="time">06-Mar-2016 12:41</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.79397201538086,37.58768081665039" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t11190477" target="_blank">Any Road</a></td>
+			<td>George Harrison</td>
+			<td class="time">04-Mar-2016 04:23</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65397644042969,37.59378433227539" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t51718637" target="_blank">This Ain&#39;t A Love Song</a></td>
+			<td>Scouting For Girls</td>
+			<td class="time">04-Mar-2016 03:20</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.653926849365234,37.59376525878906" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t20122718" target="_blank">Proterra</a></td>
+			<td>Runrig</td>
+			<td class="time">04-Mar-2016 01:58</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65398406982422,37.59375762939453" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t51866189" target="_blank">Raised On Rock</a></td>
+			<td>Scorpions</td>
+			<td class="time">04-Mar-2016 01:11</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65397262573242,37.59377670288086" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5197365" target="_blank">I Just Want To Make Love To You</a></td>
+			<td>The Rolling Stones</td>
+			<td class="time">04-Mar-2016 01:27</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654022216796875,37.59373474121094" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t223691" target="_blank">Just Like A Woman</a></td>
+			<td>Bob Dylan</td>
+			<td class="time">04-Mar-2016 01:29</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65399169921875,37.59376525878906" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t92540772" target="_blank">Feels So Good</a></td>
+			<td>The Record Company</td>
+			<td class="time">04-Mar-2016 12:18</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65396499633789,37.593788146972656" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t92540772" target="_blank">Feels So Good</a></td>
+			<td>The Record Company</td>
+			<td class="time">04-Mar-2016 12:56</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65396499633789,37.593788146972656" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t316064" target="_blank">Burnin&#39; Alive</a></td>
+			<td>AC/DC</td>
+			<td class="time">04-Mar-2016 12:51</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65399932861328,37.59376907348633" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t233373" target="_blank">Spanish Stroll</a></td>
+			<td>Mink DeVille</td>
+			<td class="time">04-Mar-2016 07:16</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73594665527344,37.64967727661133" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5202332" target="_blank">Only Wanna Be With You</a></td>
+			<td>Hootie &amp; The Blowfish</td>
+			<td class="time">04-Mar-2016 07:13</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73598098754883,37.64979934692383" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t49097747" target="_blank">Workin&#39; Class</a></td>
+			<td>Walter Trout</td>
+			<td class="time">04-Mar-2016 06:19</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73601150512695,37.64989471435547" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t147996579" target="_blank">Heroes (We Could Be)</a></td>
+			<td>Alesso Feat. Tove Lo</td>
+			<td class="time">03-Mar-2016 06:34</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73780059814453,37.71369934082031" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t147996579" target="_blank">Heroes (We Could Be)</a></td>
+			<td>Alesso Feat. Tove Lo</td>
+			<td class="time">03-Mar-2016 06:49</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73801803588867,37.71649169921875" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t64017696" target="_blank">Money (That&#39;s What I Want;The Motown Story: The 60s Version)</a></td>
+			<td>Barrett Strong</td>
+			<td class="time">03-Mar-2016 03:32</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65399169921875,37.59379196166992" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t230718522" target="_blank">Queen Of Peace</a></td>
+			<td>Florence + The Machine</td>
+			<td class="time">02-Mar-2016 02:01</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.653968811035156,37.593772888183594" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t40765440" target="_blank">Good People</a></td>
+			<td>Jack Johnson</td>
+			<td class="time">02-Mar-2016 02:59</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65396499633789,37.59378433227539" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45225371" target="_blank">Oh (Live At Radio City)</a></td>
+			<td>Dave Matthews &amp; Tim Reynolds</td>
+			<td class="time">02-Mar-2016 01:02</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.653934478759766,37.59375762939453" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t220502" target="_blank">Hammer To Fall</a></td>
+			<td>Queen</td>
+			<td class="time">26-Feb-2016 12:52</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65398025512695,37.5937385559082" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t229592107" target="_blank">S.O.B.</a></td>
+			<td>Nathaniel Rateliff &amp; The Night Sweats</td>
+			<td class="time">23-Feb-2016 07:56</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736000061035156,37.65001678466797" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t44549397" target="_blank">You Know My Name</a></td>
+			<td>Chris Cornell</td>
+			<td class="time">23-Feb-2016 07:59</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736000061035156,37.65001678466797" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t255133" target="_blank">I Saved The World Today</a></td>
+			<td>Eurythmics</td>
+			<td class="time">22-Feb-2016 09:48</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73850631713867,37.6523551940918" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45414589" target="_blank">Au</a></td>
+			<td>Aleksander Rozenbaum</td>
+			<td class="time">14-Feb-2016 02:58</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.85980224609375,37.437007904052734" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45697881" target="_blank">Герой</a></td>
+			<td>Пикник</td>
+			<td class="time">13-Feb-2016 07:29</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73848342895508,37.65225601196289" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t46752688" target="_blank">Четыре Слова</a></td>
+			<td>Агата Кристи</td>
+			<td class="time">13-Feb-2016 07:51</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73848342895508,37.65225601196289" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t293405545" target="_blank">Jump Start</a></td>
+			<td>Turin Brakes</td>
+			<td class="time">09-Feb-2016 04:18</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65388870239258,37.596656799316406" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t10294051" target="_blank">Toccata</a></td>
+			<td>Paul Mauriat</td>
+			<td class="time">09-Feb-2016 03:08</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65351104736328,37.59746170043945" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t98416291" target="_blank">Horner: My Heart Will Go On</a></td>
+			<td>Nick Ingman &amp; Prague Philharmonia</td>
+			<td class="time">08-Feb-2016 01:37</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65414047241211,37.593727111816406" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t148378668" target="_blank">The Last Days Of Summer (Original Mix)</a></td>
+			<td>Zhekim</td>
+			<td class="time">08-Feb-2016 12:07</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65414810180664,37.5937385559082" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t10001297" target="_blank">Keep Your Hands To Yourself</a></td>
+			<td>Georgia Satellites</td>
+			<td class="time">04-Feb-2016 08:15</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.739051818847656,37.65252685546875" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t251130" target="_blank">The Waiting</a></td>
+			<td>Tom Petty &amp; The Heartbreakers</td>
+			<td class="time">04-Feb-2016 08:27</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.739051818847656,37.65252685546875" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t53943990" target="_blank">Princess Of China</a></td>
+			<td>Coldplay &amp; Rihanna</td>
+			<td class="time">03-Feb-2016 01:15</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654170989990234,37.59375762939453" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t290968395" target="_blank">Echoes In Rain</a></td>
+			<td>Enya</td>
+			<td class="time">01-Feb-2016 04:10</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.75022888183594,37.71815490722656" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5242334" target="_blank">A Thousand Miles</a></td>
+			<td>Vanessa Carlton</td>
+			<td class="time">27-Jan-2016 01:14</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.653106689453125,37.59450912475586" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5951419" target="_blank">Sexy M.F.</a></td>
+			<td>Prince</td>
+			<td class="time">26-Jan-2016 08:09</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65416717529297,37.593711853027344" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5951419" target="_blank">Sexy M.F.</a></td>
+			<td>Prince</td>
+			<td class="time">26-Jan-2016 08:48</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65416717529297,37.593711853027344" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5841952" target="_blank">Le Bal</a></td>
+			<td>Vladimir Cosma</td>
+			<td class="time">20-Jan-2016 07:03</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.752445220947266,37.71937942504883" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t258742785" target="_blank">Get Into It</a></td>
+			<td>The Strypes</td>
+			<td class="time">20-Jan-2016 03:41</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65418243408203,37.59368896484375" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t445538" target="_blank">What You Need</a></td>
+			<td>INXS</td>
+			<td class="time">20-Jan-2016 07:28</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736019134521484,37.65000534057617" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t445538" target="_blank">What You Need</a></td>
+			<td>INXS</td>
+			<td class="time">20-Jan-2016 07:15</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736019134521484,37.65000534057617" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45005312" target="_blank">I Don&#39;t Wanna Stop</a></td>
+			<td>Ozzy Osbourne</td>
+			<td class="time">19-Jan-2016 12:04</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.6541633605957,37.593685150146484" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t10097066" target="_blank">In Joy And Sorrow</a></td>
+			<td>HIM</td>
+			<td class="time">17-Jan-2016 12:28</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73598098754883,37.649627685546875" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t53973675" target="_blank">Lonely Boy</a></td>
+			<td>The Black Keys</td>
+			<td class="time">17-Jan-2016 11:00</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73609924316406,37.65000534057617" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t233650" target="_blank">Pour Some Sugar On Me</a></td>
+			<td>Def Leppard</td>
+			<td class="time">17-Jan-2016 11:16</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73609924316406,37.65000534057617" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t46020016" target="_blank">Kristy, Are You Doing Okay?</a></td>
+			<td>The Offspring</td>
+			<td class="time">14-Jan-2016 06:22</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736000061035156,37.64985275268555" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t41365035" target="_blank">Land Of Confusion</a></td>
+			<td>Disturbed</td>
+			<td class="time">14-Jan-2016 06:14</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73603439331055,37.64989471435547" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t44447707" target="_blank">Tonight</a></td>
+			<td>Reamonn</td>
+			<td class="time">14-Jan-2016 06:44</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73603439331055,37.64989471435547" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t44447707" target="_blank">Tonight</a></td>
+			<td>Reamonn</td>
+			<td class="time">14-Jan-2016 06:31</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73603439331055,37.64989471435547" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t53088912" target="_blank">The Ballad Of Mona Lisa</a></td>
+			<td>Panic! At The Disco</td>
+			<td class="time">13-Jan-2016 08:57</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73594284057617,37.649478912353516" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t46767628" target="_blank">Up All Night</a></td>
+			<td>Hinder</td>
+			<td class="time">13-Jan-2016 07:37</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736106872558594,37.65031051635742" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t276922" target="_blank">Walk This Way</a></td>
+			<td>RUN-DMC Feat. Aerosmith</td>
+			<td class="time">13-Jan-2016 07:13</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.735965728759766,37.649593353271484" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t464120" target="_blank">Shimmer</a></td>
+			<td>Shawn Mullins</td>
+			<td class="time">12-Jan-2016 07:07</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73599624633789,37.64986038208008" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t464120" target="_blank">Shimmer</a></td>
+			<td>Shawn Mullins</td>
+			<td class="time">12-Jan-2016 07:03</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73599624633789,37.64986038208008" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t281511" target="_blank">I Drove All Night</a></td>
+			<td>Roy Orbison</td>
+			<td class="time">12-Jan-2016 07:24</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73600769042969,37.65010452270508" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t270550" target="_blank">Doctor My Eyes</a></td>
+			<td>Jackson Browne</td>
+			<td class="time">12-Jan-2016 07:19</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73603439331055,37.6497688293457" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t294712" target="_blank">Say You Don&#39;t Mind</a></td>
+			<td>Colin Blunstone</td>
+			<td class="time">12-Jan-2016 06:59</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73598861694336,37.64960861206055" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t225695" target="_blank">Jaded</a></td>
+			<td>Aerosmith</td>
+			<td class="time">12-Jan-2016 06:21</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736087799072266,37.650184631347656" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t2860497" target="_blank">Love Is All Around</a></td>
+			<td>The Troggs</td>
+			<td class="time">12-Jan-2016 06:43</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73601150512695,37.64983367919922" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t298617099" target="_blank">Believe You&#39;re Mine</a></td>
+			<td>Nada Surf</td>
+			<td class="time">12-Jan-2016 06:59</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736045837402344,37.64994812011719" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t53132035" target="_blank">Tonight Tonight</a></td>
+			<td>Hot Chelle Rae</td>
+			<td class="time">11-Jan-2016 11:04</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.653133392333984,37.59450149536133" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t155254955" target="_blank">It&#39;s Only Rock &#39;N&#39; Roll</a></td>
+			<td>ザ・ローリング・ストーンズ</td>
+			<td class="time">11-Jan-2016 06:42</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73601150512695,37.649837493896484" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t294854547" target="_blank">Infamous</a></td>
+			<td>Basia Bulat</td>
+			<td class="time">11-Jan-2016 06:13</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.735931396484375,37.64974594116211" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t11145897" target="_blank">The Tide Is High (Get The Feeling)</a></td>
+			<td>Atomic Kitten</td>
+			<td class="time">02-Jan-2016 04:50</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.738426208496094,37.65224838256836" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t215327" target="_blank">Running To Stand Still</a></td>
+			<td>U2</td>
+			<td class="time">01-Jan-2016 12:10</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.735931396484375,37.649742126464844" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t47657924" target="_blank">Kingdom Of Rust</a></td>
+			<td>Doves</td>
+			<td class="time">01-Jan-2016 10:41</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73595428466797,37.649566650390625" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5161643" target="_blank">Last Nite</a></td>
+			<td>The Strokes</td>
+			<td class="time">01-Jan-2016 09:21</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73606491088867,37.65016555786133" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45342172" target="_blank">Stare</a></td>
+			<td>Gorky Park</td>
+			<td class="time">31-Dec-2015 10:26</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73896408081055,37.645912170410156" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t158679534" target="_blank">Falling Awake</a></td>
+			<td>Kaiser Chiefs</td>
+			<td class="time">29-Dec-2015 07:28</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73596954345703,37.64959716796875" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t230266" target="_blank">I Try</a></td>
+			<td>Macy Gray</td>
+			<td class="time">29-Dec-2015 07:03</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73599624633789,37.649959564208984" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45422283" target="_blank">Darling I Learn On Gait</a></td>
+			<td>G. Sukachev</td>
+			<td class="time">28-Dec-2015 01:57</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65595245361328,37.59745407104492" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45005312" target="_blank">I Don&#39;t Wanna Stop</a></td>
+			<td>Ozzy Osbourne</td>
+			<td class="time">28-Dec-2015 12:58</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65416717529297,37.5937385559082" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45005312" target="_blank">I Don&#39;t Wanna Stop</a></td>
+			<td>Ozzy Osbourne</td>
+			<td class="time">28-Dec-2015 12:23</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65416717529297,37.5937385559082" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t280456" target="_blank">Just A Gigolo/I Ain&#39;t Got Nobody</a></td>
+			<td>David Lee Roth</td>
+			<td class="time">28-Dec-2015 08:16</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73604202270508,37.64994430541992" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t280456" target="_blank">Just A Gigolo/I Ain&#39;t Got Nobody</a></td>
+			<td>David Lee Roth</td>
+			<td class="time">28-Dec-2015 08:18</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73604202270508,37.64994430541992" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t280456" target="_blank">Just A Gigolo/I Ain&#39;t Got Nobody</a></td>
+			<td>David Lee Roth</td>
+			<td class="time">28-Dec-2015 08:20</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73604202270508,37.64994430541992" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t233114896" target="_blank">The Mood That I&#39;m In</a></td>
+			<td>Beth Hart</td>
+			<td class="time">28-Dec-2015 08:12</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73604202270508,37.64994430541992" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t40765449" target="_blank">Breakdown</a></td>
+			<td>Jack Johnson</td>
+			<td class="time">28-Dec-2015 08:10</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73604202270508,37.64994430541992" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t40765449" target="_blank">Breakdown</a></td>
+			<td>Jack Johnson</td>
+			<td class="time">28-Dec-2015 08:38</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73604202270508,37.64994430541992" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t57710131" target="_blank">Silenced By The Night</a></td>
+			<td>Keane</td>
+			<td class="time">28-Dec-2015 08:00</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73604202270508,37.64994430541992" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t289115937" target="_blank">Gamble For A Rose</a></td>
+			<td>King Charles</td>
+			<td class="time">26-Dec-2015 07:37</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73602294921875,37.649837493896484" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t462933" target="_blank">Come And Get Your Love</a></td>
+			<td>Redbone</td>
+			<td class="time">25-Dec-2015 10:08</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73578643798828,37.64973449707031" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t51789401" target="_blank">Big Jet Plane</a></td>
+			<td>Angus &amp; Julia Stone</td>
+			<td class="time">25-Dec-2015 09:19</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.735958099365234,37.64975357055664" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5937508" target="_blank">Whiskey In The Jar</a></td>
+			<td>Metallica</td>
+			<td class="time">25-Dec-2015 09:14</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73591995239258,37.64995574951172" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t51109380" target="_blank">Here Is To You (The Ballad Of Sacco And Vanzentti)</a></td>
+			<td>Stéphane Pompougnac</td>
+			<td class="time">24-Dec-2015 10:50</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.653221130371094,37.59368896484375" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t533393" target="_blank">Ballroom Blitz</a></td>
+			<td>Sweet</td>
+			<td class="time">22-Dec-2015 02:21</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65413284301758,37.59371566772461" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t43877503" target="_blank">Crazy Bitch</a></td>
+			<td>Buckcherry</td>
+			<td class="time">22-Dec-2015 01:14</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654117584228516,37.59370803833008" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5166017" target="_blank">Fat Lip</a></td>
+			<td>Sum 41</td>
+			<td class="time">22-Dec-2015 12:07</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65411376953125,37.59370422363281" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5166017" target="_blank">Fat Lip</a></td>
+			<td>Sum 41</td>
+			<td class="time">22-Dec-2015 12:07</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65411376953125,37.59370422363281" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t218561" target="_blank">Mutter</a></td>
+			<td>Rammstein</td>
+			<td class="time">22-Dec-2015 11:05</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654117584228516,37.59370422363281" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t218561" target="_blank">Mutter</a></td>
+			<td>Rammstein</td>
+			<td class="time">22-Dec-2015 11:27</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654117584228516,37.59370422363281" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45678403" target="_blank">Beat It (Studio Version)</a></td>
+			<td>Fall Out Boy Feat. John Mayer</td>
+			<td class="time">22-Dec-2015 08:25</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65412521362305,37.59370040893555" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t219986" target="_blank">Killer Queen</a></td>
+			<td>Queen</td>
+			<td class="time">22-Dec-2015 08:15</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65412902832031,37.593685150146484" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t47594520" target="_blank">My Circuitboard City</a></td>
+			<td>The Wombats</td>
+			<td class="time">22-Dec-2015 05:17</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73604202270508,37.65044403076172" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t238595" target="_blank">Livin&#39; On A Prayer</a></td>
+			<td>Bon Jovi</td>
+			<td class="time">21-Dec-2015 06:45</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.735923767089844,37.649688720703125" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t40667188" target="_blank">Lonely No More</a></td>
+			<td>Rob Thomas</td>
+			<td class="time">21-Dec-2015 05:42</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736053466796875,37.64979553222656" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t11215958" target="_blank">Fairytale</a></td>
+			<td>Ludovico Einaudi</td>
+			<td class="time">20-Dec-2015 08:05</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73593521118164,37.64982604980469" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5183761" target="_blank">You Can&#39;t Always Get What You Want</a></td>
+			<td>The Rolling Stones</td>
+			<td class="time">20-Dec-2015 07:55</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736026763916016,37.649818420410156" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t10577210" target="_blank">I Believe In Father Christmas</a></td>
+			<td>Greg Lake</td>
+			<td class="time">20-Dec-2015 07:19</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.7359504699707,37.64977264404297" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t43993809" target="_blank">Who Knew</a></td>
+			<td>P!nk</td>
+			<td class="time">19-Dec-2015 07:58</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.7392578125,37.72079849243164" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t11226015" target="_blank">The Anthem</a></td>
+			<td>Good Charlotte</td>
+			<td class="time">19-Dec-2015 04:33</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73594284057617,37.6497802734375" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45419439" target="_blank">Хару Мамбуру</a></td>
+			<td>Ногу Свело!</td>
+			<td class="time">19-Dec-2015 04:34</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.735931396484375,37.64981460571289" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45702738" target="_blank">Эльдорадо</a></td>
+			<td>Ва-БанкЪ</td>
+			<td class="time">19-Dec-2015 12:13</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73600769042969,37.65040969848633" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t40641129" target="_blank">Lift Me Up</a></td>
+			<td>Moby</td>
+			<td class="time">19-Dec-2015 11:07</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73593521118164,37.64977264404297" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t269557" target="_blank">The Power Of Love</a></td>
+			<td>Huey Lewis &amp; The News</td>
+			<td class="time">19-Dec-2015 08:05</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736045837402344,37.65053176879883" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t298542036" target="_blank">Light This Party Up</a></td>
+			<td>Rick Springfield</td>
+			<td class="time">19-Dec-2015 07:04</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73605728149414,37.65040969848633" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t40294238" target="_blank">The Magic Key (Extended)</a></td>
+			<td>One-T</td>
+			<td class="time">17-Dec-2015 07:17</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73908233642578,37.71803665161133" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t448377" target="_blank">I Take What I Want</a></td>
+			<td>Rory Gallagher</td>
+			<td class="time">17-Dec-2015 01:38</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65414047241211,37.59366989135742" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t299970868" target="_blank">Mystery Of A Blood Red Rose</a></td>
+			<td>Avantasia</td>
+			<td class="time">17-Dec-2015 12:44</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65412902832031,37.593692779541016" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t199829" target="_blank">Walking The Dog</a></td>
+			<td>Rufus Thomas</td>
+			<td class="time">17-Dec-2015 12:51</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65412521362305,37.59369659423828" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t296962333" target="_blank">Gimme Shelter</a></td>
+			<td>Stone Sour Feat. LIzzy Hale</td>
+			<td class="time">17-Dec-2015 06:01</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.7359619140625,37.649600982666016" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t226420" target="_blank">The Chain</a></td>
+			<td>Fleetwood Mac</td>
+			<td class="time">17-Dec-2015 06:50</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.7359619140625,37.649600982666016" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t48789948" target="_blank">Roadsinger</a></td>
+			<td>Yusuf &amp; Cat Stevens</td>
+			<td class="time">17-Dec-2015 06:13</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.7357177734375,37.64943313598633" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t535792" target="_blank">The Night They Drove Old Dixie Down</a></td>
+			<td>Joan Baez</td>
+			<td class="time">17-Dec-2015 06:27</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736019134521484,37.64997863769531" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45397123" target="_blank">Рок</a></td>
+			<td>Пилот</td>
+			<td class="time">16-Dec-2015 07:58</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.7359504699707,37.649803161621094" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t41963460" target="_blank">You Raise Me Up</a></td>
+			<td>Westlife</td>
+			<td class="time">16-Dec-2015 10:17</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65309524536133,37.59452438354492" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t229592107" target="_blank">S.O.B.</a></td>
+			<td>Nathaniel Rateliff &amp; The Night Sweats</td>
+			<td class="time">16-Dec-2015 05:25</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736019134521484,37.65068817138672" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5249816" target="_blank">Lonely This Christmas</a></td>
+			<td>Mud</td>
+			<td class="time">15-Dec-2015 09:44</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73596954345703,37.65023422241211" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t232659" target="_blank">My Father&#39;s Eyes</a></td>
+			<td>Eric Clapton</td>
+			<td class="time">15-Dec-2015 05:00</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73601150512695,37.64979553222656" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t237002" target="_blank">Me And Julio Down By The Schoolyard</a></td>
+			<td>Paul Simon</td>
+			<td class="time">15-Dec-2015 05:45</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73601150512695,37.64979553222656" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t218021" target="_blank">Honey</a></td>
+			<td>Moby</td>
+			<td class="time">14-Dec-2015 09:13</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73594284057617,37.6497917175293" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t238006233" target="_blank">Fallen Angel</a></td>
+			<td>Three Days Grace</td>
+			<td class="time">14-Dec-2015 08:55</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.7360725402832,37.64994430541992" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45342764" target="_blank">Results</a></td>
+			<td>Zemfira</td>
+			<td class="time">14-Dec-2015 08:37</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.7360725402832,37.64994430541992" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5904760" target="_blank">Another Brick In The Wall, Part 1 (2011-Remaster)</a></td>
+			<td>Pink Floyd</td>
+			<td class="time">13-Dec-2015 03:09</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73593521118164,37.64970779418945" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t58451147" target="_blank">Chanson Pour Les Petits Enfants</a></td>
+			<td>JImmy Buffett</td>
+			<td class="time">12-Dec-2015 01:10</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65410232543945,37.59369659423828" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t448093" target="_blank">Green Grass &amp; High Tides</a></td>
+			<td>THe Outlaws</td>
+			<td class="time">12-Dec-2015 01:23</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654144287109375,37.593685150146484" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45328867" target="_blank">Long Road Out Of Eden</a></td>
+			<td>Eagles</td>
+			<td class="time">12-Dec-2015 12:33</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65412139892578,37.59369659423828" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t78431286" target="_blank">Bend</a></td>
+			<td>Ultrademon</td>
+			<td class="time">12-Dec-2015 12:13</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65411376953125,37.593685150146484" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t52365120" target="_blank">The Trip To Pirate&#39;s Cove</a></td>
+			<td>Tom Petty And The Heartbreakers</td>
+			<td class="time">12-Dec-2015 11:48</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654151916503906,37.59371566772461" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5236772" target="_blank">Hymn To Her</a></td>
+			<td>Pretenders</td>
+			<td class="time">12-Dec-2015 11:33</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65412521362305,37.59370803833008" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t52637695" target="_blank">Empty Eye</a></td>
+			<td>Endless Boogie</td>
+			<td class="time">12-Dec-2015 11:36</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65414047241211,37.59371566772461" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t109579087" target="_blank">Going Back Home</a></td>
+			<td>Wilko Johnson &amp; Roger Daltrey</td>
+			<td class="time">12-Dec-2015 11:56</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65413284301758,37.59367752075195" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t291330013" target="_blank">Until I Die</a></td>
+			<td>Inglorious</td>
+			<td class="time">12-Dec-2015 05:11</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73601531982422,37.65005111694336" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t234178782" target="_blank">Heart&#39;s Too Heavy</a></td>
+			<td>John Moreland</td>
+			<td class="time">11-Dec-2015 06:24</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73600387573242,37.649818420410156" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5447383" target="_blank">Katmandu</a></td>
+			<td>Bob Seger</td>
+			<td class="time">11-Dec-2015 05:07</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73600387573242,37.649818420410156" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t54081375" target="_blank">Katmandu</a></td>
+			<td>Bob Seger &amp; The Silver Bullet Band</td>
+			<td class="time">11-Dec-2015 05:34</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73600387573242,37.649818420410156" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t217687" target="_blank">Run To You</a></td>
+			<td>Bryan Adams</td>
+			<td class="time">11-Dec-2015 05:43</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73600387573242,37.649818420410156" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t412754" target="_blank">I&#39;m Crying</a></td>
+			<td>The Animals</td>
+			<td class="time">09-Dec-2015 05:49</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.735870361328125,37.649627685546875" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5163375" target="_blank">Dreamer</a></td>
+			<td>Ozzy Osbourne</td>
+			<td class="time">07-Dec-2015 07:38</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736087799072266,37.650028228759766" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t44562756" target="_blank">Famous Last Words</a></td>
+			<td>My Chemical Romance</td>
+			<td class="time">07-Dec-2015 07:42</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73594665527344,37.64966583251953" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t251133" target="_blank">Mary Jane&#39;s Last Dance</a></td>
+			<td>Tom Petty &amp; The Heartbreakers</td>
+			<td class="time">07-Dec-2015 07:42</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73594665527344,37.64966583251953" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t54118571" target="_blank">Everybody Talks</a></td>
+			<td>Neon Trees</td>
+			<td class="time">05-Dec-2015 02:34</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.735958099365234,37.6497917175293" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t11248442" target="_blank">The Funeral Of Hearts</a></td>
+			<td>HIM</td>
+			<td class="time">05-Dec-2015 02:56</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.735931396484375,37.64987564086914" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45414242" target="_blank">Eto Po Lubvi (Because Of Love)</a></td>
+			<td>Mumiy Troll</td>
+			<td class="time">05-Dec-2015 01:33</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73595428466797,37.64992904663086" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t102631226" target="_blank">Heaven Knows</a></td>
+			<td>The Pretty Reckless</td>
+			<td class="time">05-Dec-2015 01:09</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.735939025878906,37.64974594116211" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t191320" target="_blank">Long Tall Sally</a></td>
+			<td>Little Richard</td>
+			<td class="time">05-Dec-2015 11:51</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73617935180664,37.649776458740234" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t462930" target="_blank">Rock On</a></td>
+			<td>David Essex</td>
+			<td class="time">05-Dec-2015 11:03</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736473083496094,37.650150299072266" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t236509" target="_blank">Livin&#39; On The Edge</a></td>
+			<td>Aerosmith</td>
+			<td class="time">05-Dec-2015 06:48</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736000061035156,37.64989471435547" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t40707822" target="_blank">Slipping Away</a></td>
+			<td>Moby</td>
+			<td class="time">05-Dec-2015 06:12</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.735992431640625,37.649810791015625" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t412713" target="_blank">Talkin&#39; About You</a></td>
+			<td>The Animals</td>
+			<td class="time">04-Dec-2015 03:29</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65412902832031,37.59370040893555" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t412713" target="_blank">Talkin&#39; About You</a></td>
+			<td>The Animals</td>
+			<td class="time">04-Dec-2015 03:46</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65412902832031,37.59370040893555" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t285833488" target="_blank">Sea Of Love</a></td>
+			<td>Def Leppard</td>
+			<td class="time">04-Dec-2015 12:31</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65409469604492,37.593719482421875" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t237069" target="_blank">All Right Now</a></td>
+			<td>FREE</td>
+			<td class="time">04-Dec-2015 09:28</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654144287109375,37.59372329711914" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t53973675" target="_blank">Lonely Boy</a></td>
+			<td>The Black Keys</td>
+			<td class="time">04-Dec-2015 06:33</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73601531982422,37.64979934692383" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t73512354" target="_blank">In The End</a></td>
+			<td>Black Veil Brides</td>
+			<td class="time">04-Dec-2015 06:27</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.735984802246094,37.64965057373047" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t82595876" target="_blank">It&#39;s A Beautiful Day</a></td>
+			<td>Michael Bublé</td>
+			<td class="time">03-Dec-2015 10:37</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.653133392333984,37.59447479248047" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t483409" target="_blank">Galadriel</a></td>
+			<td>Barclay James Harvest</td>
+			<td class="time">03-Dec-2015 06:04</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73595428466797,37.64973831176758" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t10002020" target="_blank">Listen To The Music</a></td>
+			<td>The Doobie Brothers</td>
+			<td class="time">02-Dec-2015 06:36</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.7440185546875,37.63002395629883" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t10002020" target="_blank">Listen To The Music</a></td>
+			<td>The Doobie Brothers</td>
+			<td class="time">02-Dec-2015 06:24</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.7440185546875,37.63002395629883" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t313735" target="_blank">White Rabbit</a></td>
+			<td>Jefferson Airplane</td>
+			<td class="time">02-Dec-2015 05:28</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.74394226074219,37.63003158569336" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t291971" target="_blank">Copperhead Road</a></td>
+			<td>Steve Earle</td>
+			<td class="time">02-Dec-2015 05:22</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736026763916016,37.64995193481445" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t10306914" target="_blank">Gone With The Sin</a></td>
+			<td>HIM</td>
+			<td class="time">30-Nov-2015 04:38</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65414047241211,37.59371566772461" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45041712" target="_blank">Shadow Of The Day</a></td>
+			<td>Linkin Park</td>
+			<td class="time">30-Nov-2015 03:24</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65410614013672,37.59374237060547" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t238027295" target="_blank">Renegades</a></td>
+			<td>X Ambassadors</td>
+			<td class="time">30-Nov-2015 03:25</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65412902832031,37.59366989135742" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5207395" target="_blank">Sometimes It&#39;s A Bitch</a></td>
+			<td>Stevie Nicks</td>
+			<td class="time">30-Nov-2015 01:34</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65412139892578,37.59370803833008" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t327240" target="_blank">Fog On The Tyne</a></td>
+			<td>Lindisfarne</td>
+			<td class="time">30-Nov-2015 11:01</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65414810180664,37.59369659423828" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t436225" target="_blank">Mississippi Queen</a></td>
+			<td>Mountain</td>
+			<td class="time">30-Nov-2015 10:12</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65412139892578,37.59373092651367" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t273218703" target="_blank">Words Can Break Your Heart</a></td>
+			<td>Don Henley</td>
+			<td class="time">30-Nov-2015 07:57</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65412902832031,37.59371566772461" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t105471258" target="_blank">Blacklight</a></td>
+			<td>The Green Piece &amp; Alex Armes</td>
+			<td class="time">30-Nov-2015 07:32</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65412902832031,37.59371566772461" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45422636" target="_blank">Moya Nelaskovaya Rus’</a></td>
+			<td>Alexander Ivanov</td>
+			<td class="time">30-Nov-2015 06:57</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73832321166992,37.65180969238281" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t10659959" target="_blank">In This World</a></td>
+			<td>Moby</td>
+			<td class="time">29-Nov-2015 05:58</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73594284057617,37.649871826171875" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t98264084" target="_blank">Could Have Been Me</a></td>
+			<td>The Struts</td>
+			<td class="time">29-Nov-2015 05:59</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73594284057617,37.649871826171875" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t44312738" target="_blank">Proper Education</a></td>
+			<td>Eric Prydz Vs. Floyd</td>
+			<td class="time">28-Nov-2015 10:33</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.7359733581543,37.649803161621094" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45342786" target="_blank">Держаться За Воздух</a></td>
+			<td>Би-2</td>
+			<td class="time">28-Nov-2015 09:13</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73591995239258,37.6497917175293" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t41997520" target="_blank">Believe Me</a></td>
+			<td>Fort Minor</td>
+			<td class="time">28-Nov-2015 09:05</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.7359504699707,37.64986038208008" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t319393" target="_blank">Have You Ever Seen The Rain?</a></td>
+			<td>Spin Doctors</td>
+			<td class="time">28-Nov-2015 01:38</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73876953125,37.652469635009766" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t53590060" target="_blank">Я Богат</a></td>
+			<td>Денис Майданов</td>
+			<td class="time">28-Nov-2015 12:24</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73876953125,37.652469635009766" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5165965" target="_blank">Orinoco Flow</a></td>
+			<td>Enya</td>
+			<td class="time">28-Nov-2015 11:42</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73876953125,37.652469635009766" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t324416" target="_blank">Love Is Strong</a></td>
+			<td>The Rolling Stones</td>
+			<td class="time">28-Nov-2015 09:25</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.735958099365234,37.64985656738281" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t229592107" target="_blank">S.O.B.</a></td>
+			<td>Nathaniel Rateliff &amp; The Night Sweats</td>
+			<td class="time">28-Nov-2015 09:46</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736000061035156,37.64984893798828" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t276017959" target="_blank">Fire And The Flood</a></td>
+			<td>Vance Joy</td>
+			<td class="time">28-Nov-2015 06:57</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73603057861328,37.64967346191406" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t296049296" target="_blank">Makeshift Love</a></td>
+			<td>Good Charlotte</td>
+			<td class="time">28-Nov-2015 05:07</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.7360725402832,37.65046691894531" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t76353408" target="_blank">Bye Bye Manchester</a></td>
+			<td>Melanie Pain</td>
+			<td class="time">27-Nov-2015 04:17</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73831558227539,37.65155792236328" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t368569" target="_blank">Regret</a></td>
+			<td>New Order</td>
+			<td class="time">27-Nov-2015 05:23</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73593521118164,37.649776458740234" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t264347871" target="_blank">Jekyll And Hyde</a></td>
+			<td>Five Finger Death Punch</td>
+			<td class="time">27-Nov-2015 05:33</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73602294921875,37.649864196777344" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45311506" target="_blank">When I&#39;m Gone</a></td>
+			<td>Simple Plan</td>
+			<td class="time">27-Nov-2015 05:30</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73607635498047,37.65009689331055" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t46372738" target="_blank">Vot Tak</a></td>
+			<td>Alisa</td>
+			<td class="time">26-Nov-2015 05:26</td>
+			<td class="map"></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t261368" target="_blank">Unskinny Bop</a></td>
+			<td>Poison</td>
+			<td class="time">24-Nov-2015 07:59</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73600769042969,37.649715423583984" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t266937580" target="_blank">Revolt</a></td>
+			<td>Muse</td>
+			<td class="time">24-Nov-2015 07:18</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736080169677734,37.650115966796875" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t424757" target="_blank">Old Hippie</a></td>
+			<td>The Bellamy Brothers</td>
+			<td class="time">23-Nov-2015 04:09</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65414047241211,37.593719482421875" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t3052255" target="_blank">Music Makin&#39; Mama From Memphis</a></td>
+			<td>Hank Snow</td>
+			<td class="time">23-Nov-2015 04:10</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654136657714844,37.593719482421875" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t10325788" target="_blank">Georgia On A Fast Train</a></td>
+			<td>Billy Joe Shaver</td>
+			<td class="time">23-Nov-2015 04:05</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65411376953125,37.59370803833008" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t295463356" target="_blank">The Story</a></td>
+			<td>Runrig</td>
+			<td class="time">23-Nov-2015 03:53</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654151916503906,37.59368133544922" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t10101855" target="_blank">Knockin&#39; On Heaven&#39;s Door</a></td>
+			<td>Guns N&#39; Roses</td>
+			<td class="time">23-Nov-2015 02:43</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65413284301758,37.59369659423828" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t280496715" target="_blank">Sympathy For The Devil</a></td>
+			<td>Motörhead</td>
+			<td class="time">23-Nov-2015 02:30</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65409469604492,37.59373092651367" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t2921248" target="_blank">Tobacco Road</a></td>
+			<td>The Nashville Teens</td>
+			<td class="time">23-Nov-2015 11:00</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65410614013672,37.5937385559082" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t287548109" target="_blank">Mother Moon</a></td>
+			<td>Inkubus Sukkubus</td>
+			<td class="time">23-Nov-2015 11:29</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65415573120117,37.59372329711914" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t44158104" target="_blank">Manchester</a></td>
+			<td>The Beautiful South</td>
+			<td class="time">23-Nov-2015 11:09</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65410232543945,37.5937385559082" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t582430" target="_blank">Ocean Gypsy</a></td>
+			<td>Renaissance</td>
+			<td class="time">23-Nov-2015 11:12</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65409851074219,37.59370803833008" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t582430" target="_blank">Ocean Gypsy</a></td>
+			<td>Renaissance</td>
+			<td class="time">23-Nov-2015 11:39</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65504455566406,37.58871841430664" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t234178782" target="_blank">Heart&#39;s Too Heavy</a></td>
+			<td>John Moreland</td>
+			<td class="time">23-Nov-2015 11:02</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.6541633605957,37.593719482421875" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t348168" target="_blank">Crash</a></td>
+			<td>The Primitives</td>
+			<td class="time">23-Nov-2015 10:46</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65411376953125,37.59373474121094" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t92616868" target="_blank">Telling Lies</a></td>
+			<td>Roadhouse</td>
+			<td class="time">23-Nov-2015 09:21</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654117584228516,37.593727111816406" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t273932129" target="_blank">Leave A Trace</a></td>
+			<td>CHVRCHES</td>
+			<td class="time">23-Nov-2015 08:31</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65410614013672,37.59375762939453" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t292217356" target="_blank">Looking Up</a></td>
+			<td>Elton John</td>
+			<td class="time">23-Nov-2015 08:36</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65409469604492,37.5937385559082" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t379629" target="_blank">Small Town</a></td>
+			<td>John Mellencamp</td>
+			<td class="time">23-Nov-2015 08:53</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654144287109375,37.59369659423828" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5202332" target="_blank">Only Wanna Be With You</a></td>
+			<td>Hootie &amp; The Blowfish</td>
+			<td class="time">23-Nov-2015 06:49</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73600769042969,37.64969253540039" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t215547" target="_blank">The Best Of My Love</a></td>
+			<td>Eagles</td>
+			<td class="time">22-Nov-2015 06:42</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736026763916016,37.65032958984375" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t292106179" target="_blank">Walk With Me (When The Sun Goes Down)</a></td>
+			<td>Show Of Hands</td>
+			<td class="time">22-Nov-2015 06:06</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736026763916016,37.65032958984375" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t10095482" target="_blank">Journey</a></td>
+			<td>Duncan Browne</td>
+			<td class="time">22-Nov-2015 05:00</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73606491088867,37.650081634521484" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t277038544" target="_blank">Shine A Different Way</a></td>
+			<td>Patty Griffin</td>
+			<td class="time">21-Nov-2015 10:51</td>
+			<td class="map"><a href="https://google.com/maps/?q=46.21817398071289,47.903079986572266" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t53658932" target="_blank">Liontamer</a></td>
+			<td>Charlie Dore</td>
+			<td class="time">21-Nov-2015 10:30</td>
+			<td class="map"><a href="https://google.com/maps/?q=46.21817398071289,47.903079986572266" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t287561547" target="_blank">Biggest Mistake Of My Life</a></td>
+			<td>Cutting Crew</td>
+			<td class="time">21-Nov-2015 08:49</td>
+			<td class="map"><a href="https://google.com/maps/?q=46.21866989135742,47.9009895324707" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t45164953" target="_blank">She&#39;s So Lovely</a></td>
+			<td>Scouting For Girls</td>
+			<td class="time">21-Nov-2015 08:38</td>
+			<td class="map"><a href="https://google.com/maps/?q=46.21867752075195,47.9010009765625" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t234178782" target="_blank">Heart&#39;s Too Heavy</a></td>
+			<td>John Moreland</td>
+			<td class="time">21-Nov-2015 08:44</td>
+			<td class="map"><a href="https://google.com/maps/?q=46.21870040893555,47.901004791259766" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t295463356" target="_blank">The Story</a></td>
+			<td>Runrig</td>
+			<td class="time">21-Nov-2015 07:22</td>
+			<td class="map"><a href="https://google.com/maps/?q=46.218650817871094,47.9010009765625" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t251133" target="_blank">Mary Jane&#39;s Last Dance</a></td>
+			<td>Tom Petty &amp; The Heartbreakers</td>
+			<td class="time">21-Nov-2015 07:20</td>
+			<td class="map"><a href="https://google.com/maps/?q=46.218692779541016,47.900962829589844" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t57085546" target="_blank">Taking My Baby Up Town</a></td>
+			<td>Joan Armatrading</td>
+			<td class="time">21-Nov-2015 05:00</td>
+			<td class="map"><a href="https://google.com/maps/?q=46.218685150146484,47.901023864746094" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t10103991" target="_blank">Get Off My Cloud</a></td>
+			<td>Alexis Korner</td>
+			<td class="time">20-Nov-2015 04:15</td>
+			<td class="map"><a href="https://google.com/maps/?q=46.21870040893555,47.900447845458984" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t295463356" target="_blank">The Story</a></td>
+			<td>Runrig</td>
+			<td class="time">18-Nov-2015 05:17</td>
+			<td class="map"><a href="https://google.com/maps/?q=46.21971130371094,47.88621139526367" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5912615" target="_blank">Fast Car</a></td>
+			<td>Tracy Chapman</td>
+			<td class="time">18-Nov-2015 05:29</td>
+			<td class="map"><a href="https://google.com/maps/?q=46.218666076660156,47.900962829589844" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t211809" target="_blank">Down On The Farm</a></td>
+			<td>Big Al Downing</td>
+			<td class="time">17-Nov-2015 06:13</td>
+			<td class="map"><a href="https://google.com/maps/?q=46.218997955322266,47.90113830566406" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t2884813" target="_blank">What&#39;s Up?</a></td>
+			<td>4 Non Blondes</td>
+			<td class="time">17-Nov-2015 04:28</td>
+			<td class="map"><a href="https://google.com/maps/?q=46.218631744384766,47.901004791259766" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t142653197" target="_blank">Listen To Your Father</a></td>
+			<td>Feargal Sharkey</td>
+			<td class="time">14-Nov-2015 01:28</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654117584228516,37.593719482421875" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t142653197" target="_blank">Listen To Your Father</a></td>
+			<td>Feargal Sharkey</td>
+			<td class="time">14-Nov-2015 01:43</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654136657714844,37.593746185302734" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t11245417" target="_blank">You Got The Style</a></td>
+			<td>Athlete</td>
+			<td class="time">14-Nov-2015 12:57</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654090881347656,37.59370803833008" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t286203624" target="_blank">What Bob Dylan Really Meant</a></td>
+			<td>The Lawyer And The Draper</td>
+			<td class="time">14-Nov-2015 11:38</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65412139892578,37.59373092651367" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t271096380" target="_blank">Another Country</a></td>
+			<td>Rod Stewart</td>
+			<td class="time">14-Nov-2015 07:30</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.735965728759766,37.64973449707031" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t271096380" target="_blank">Another Country</a></td>
+			<td>Rod Stewart</td>
+			<td class="time">14-Nov-2015 07:18</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.735965728759766,37.64973449707031" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5729650" target="_blank">Watching The River Flow</a></td>
+			<td>Bob Dylan</td>
+			<td class="time">14-Nov-2015 06:40</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73593521118164,37.64970016479492" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t258700" target="_blank">Satellite Of Love</a></td>
+			<td>Lou Reed</td>
+			<td class="time">14-Nov-2015 06:49</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73600769042969,37.65004348754883" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t264967" target="_blank">Keep On Running</a></td>
+			<td>The Spencer Davis Group</td>
+			<td class="time">14-Nov-2015 05:26</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73593521118164,37.64997482299805" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t101690313" target="_blank">The Good Love</a></td>
+			<td>The Janeys</td>
+			<td class="time">13-Nov-2015 03:35</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65410232543945,37.59372329711914" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5183430" target="_blank">Return To Innocence</a></td>
+			<td>Enigma</td>
+			<td class="time">13-Nov-2015 11:40</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65306854248047,37.59455871582031" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t286823034" target="_blank">I Do</a></td>
+			<td>Jill Hennessy</td>
+			<td class="time">13-Nov-2015 06:13</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.735931396484375,37.649818420410156" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t222139" target="_blank">The Seeker</a></td>
+			<td>The Who</td>
+			<td class="time">13-Nov-2015 06:44</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.735931396484375,37.649818420410156" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t48840362" target="_blank">Dead Mans Suit</a></td>
+			<td>Jon Allen</td>
+			<td class="time">13-Nov-2015 06:16</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736000061035156,37.649627685546875" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t279138512" target="_blank">Need A Friend</a></td>
+			<td>EL VY</td>
+			<td class="time">13-Nov-2015 06:14</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73600387573242,37.649845123291016" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t217350" target="_blank">She&#39;s A Star</a></td>
+			<td>James</td>
+			<td class="time">13-Nov-2015 06:44</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73600387573242,37.649845123291016" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t281916253" target="_blank">Your Fever</a></td>
+			<td>Chantel McGregor</td>
+			<td class="time">12-Nov-2015 06:18</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654109954833984,37.59372329711914" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t272580583" target="_blank">Moonlight Shadow</a></td>
+			<td>Blackmore&#39;s Night</td>
+			<td class="time">12-Nov-2015 06:12</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65412902832031,37.59373092651367" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t5857657" target="_blank">Hey Joe</a></td>
+			<td>Johnny Hallyday</td>
+			<td class="time">11-Nov-2015 07:37</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73594284057617,37.65000534057617" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t10204693" target="_blank">Free Ride</a></td>
+			<td>The Edgar Winter Group</td>
+			<td class="time">10-Nov-2015 03:31</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654109954833984,37.59369659423828" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t223950601" target="_blank">Smiling</a></td>
+			<td>Jonathan Jeremiah</td>
+			<td class="time">10-Nov-2015 02:31</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65411376953125,37.59371566772461" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t55299055" target="_blank">Chelsea (I Don&#39;t Want To Go To)</a></td>
+			<td>Elvis Costello</td>
+			<td class="time">10-Nov-2015 02:29</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654136657714844,37.59371566772461" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t581540" target="_blank">Roadrunner</a></td>
+			<td>Jonathan Richman &amp; The Modern Lovers</td>
+			<td class="time">10-Nov-2015 02:11</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65414047241211,37.59372329711914" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t238975" target="_blank">Perfect Day</a></td>
+			<td>Lou Reed</td>
+			<td class="time">10-Nov-2015 01:37</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.65410232543945,37.593711853027344" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t91310510" target="_blank">Every Song&#39;s The Same</a></td>
+			<td>Justin Currie</td>
+			<td class="time">10-Nov-2015 06:20</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73590850830078,37.64961624145508" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t293570861" target="_blank">Looking Up</a></td>
+			<td>Elton John</td>
+			<td class="time">10-Nov-2015 06:34</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73653793334961,37.65021514892578" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t50112248" target="_blank">Istanbul</a></td>
+			<td>Emerald Park</td>
+			<td class="time">09-Nov-2015 11:56</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.654048919677734,37.593536376953125" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t54760527" target="_blank">Memories</a></td>
+			<td>The Magnificent</td>
+			<td class="time">09-Nov-2015 06:51</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73611068725586,37.649784088134766" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t47745184" target="_blank">Tornado Swing</a></td>
+			<td>Hot Club d&#39;Allemagne</td>
+			<td class="time">08-Nov-2015 09:45</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73588180541992,37.649662017822266" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t50065313" target="_blank">Juke Box Hero (2009 Remixed Album Version)</a></td>
+			<td>Foreigner</td>
+			<td class="time">08-Nov-2015 09:09</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73605728149414,37.650089263916016" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t142702159" target="_blank">Get Loose</a></td>
+			<td>The Coronas</td>
+			<td class="time">08-Nov-2015 09:10</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73605728149414,37.650089263916016" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t273640" target="_blank">On The Beach</a></td>
+			<td>Chris Rea</td>
+			<td class="time">08-Nov-2015 06:31</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.736106872558594,37.65006637573242" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t10580730" target="_blank">Nice Legs Shame About The Face</a></td>
+			<td>The Monks</td>
+			<td class="time">08-Nov-2015 05:06</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73602294921875,37.65004348754883" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t222338" target="_blank">The Bitch Is Back</a></td>
+			<td>Elton John</td>
+			<td class="time">08-Nov-2015 05:22</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.7360954284668,37.650001525878906" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t53070569" target="_blank">Catch Us If You Can</a></td>
+			<td>The Dave Clark Five</td>
+			<td class="time">08-Nov-2015 05:35</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.7360725402832,37.65010452270508" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t86908963" target="_blank">Jubel </a></td>
+			<td>Klingande</td>
+			<td class="time">06-Nov-2015 10:31</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73828887939453,37.65187454223633" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t20093181" target="_blank">Everybody&#39;s Changing</a></td>
+			<td>Keane</td>
+			<td class="time">06-Nov-2015 10:32</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73828887939453,37.651878356933594" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t280533510" target="_blank">Owner Of A Lonely Heart</a></td>
+			<td>AndersonPonty Band</td>
+			<td class="time">27-Oct-2015 06:31</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.7359619140625,37.650299072265625" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t11147889" target="_blank">Long Long Way To Go</a></td>
+			<td>Def Leppard</td>
+			<td class="time">27-Oct-2015 06:55</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73601531982422,37.650146484375" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t665870" target="_blank">What Do You Want From Life</a></td>
+			<td>The Tubes</td>
+			<td class="time">26-Oct-2015 07:48</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73605728149414,37.6501579284668" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t316646" target="_blank">Sister Golden Hair</a></td>
+			<td>America</td>
+			<td class="time">26-Oct-2015 08:36</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.7359504699707,37.650299072265625" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+		<tr>
+			<td><a href="http://shz.am/t76841622" target="_blank">Feelin&#39; Brave</a></td>
+			<td>Blue Sky Riders</td>
+			<td class="time">26-Oct-2015 08:37</td>
+			<td class="map"><a href="https://google.com/maps/?q=55.73598098754883,37.650272369384766" target="_blank"><svg class="icon"><use xlink:href="#icon-map"></use></svg></a></td>
+		</tr>
+	</table>
+</body>
+</html>
