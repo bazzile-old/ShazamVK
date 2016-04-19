@@ -3,3 +3,12 @@ https://oauth.vk.com/authorize?client_id=5422760&scope=audio,offline&redirect_ur
 
 https://vk.com/dev/auth_mobile
 https://vk.com/dev/permissions
+
+title
+aid
+url
+artist
+genre
+duration
+owner_id
+lyrics_id
