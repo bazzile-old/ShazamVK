@@ -12,7 +12,5 @@ def get_shazams(filename):
     for n in range(len(root.xpath('//tr/td[2]/text()'))):
         # название исполнителя - название композиции; сетом убираем дубликаты
         # TODO убрать дефис между названием песни и исполнителем
-        shaz_song_set.add((root.xpath('//tr/td[2]/text()')[n] + ' - ' + root.xpath('//tr/td[1]/a/text()')[n]))
+        shaz_song_set.add((root.xpath('//tr/td[2]/text()')[n] + ' ' + root.xpath('//tr/td[1]/a/text()')[n]))
     return shaz_song_set
-
-print(get_shazams(in_file))
