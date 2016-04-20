@@ -9,6 +9,13 @@ def sec2min(seconds):
     m, s = divmod(seconds, 60)
     return str("%02d:%02d" % (m, s))
 
+# TODO-basile исключить из шазамов песни, уже имеющиеся в списке моих аудио
+def my_vk_song_list():
+    my_audios = []
+    for my_song in api.audio.get():
+        my_audios.append(my_song['artist'] + ' ' + my_song['title'])
+    return my_audios
+
 
 request = 'Tommy Emmanuel - from the hip'
 in_file = r"test\myshazam-history.html"
@@ -16,6 +23,7 @@ in_file = r"test\myshazam-history.html"
 session = vk.Session(
     access_token='73a05d70abc418a24aaa27946029b311c530971a5e6f6d1d515bf8dd9e98ce27217b244508316df16b429')
 api = vk.API(session)
+
 
 for shazam in get_shazams(in_file):
     song_list = []
